@@ -1,8 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
+import Project from "../Project";
 
 function Portfolio() {
     return(
-        <h1>Portfolio</h1>
+        <Fragment>
+            <h1>Portfolio</h1>
+            <article className="container">
+                <Project/>
+                <Project/>
+                <Project/>
+            </article>
+
+        </Fragment>
     )
 }
 
