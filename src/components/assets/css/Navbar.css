@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    height: 5%;
+    background-color: rgb(43, 43, 49);
+    padding: 10px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.link:hover {
+    color: rgb(173, 173, 173);
+}
+
+.brand {
+    font-size: 1.3em;
+}
+
+.brand, .navbarNav, .navbarList, .nav-li {
+    display: inline;
+    margin: 10px;
+}

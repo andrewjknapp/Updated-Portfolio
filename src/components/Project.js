@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../assets/style/Project.css"
+import "./assets/css/Project.css"
 
 function Project(props) {
     const [moreInfoView, setMoreInfoView] = useState(false);
@@ -10,35 +10,30 @@ function Project(props) {
     let role = "Lead Developer";
     let deployedLink = "#";
     let gitHubLink = "#";
+    let imgAlt = "Bowl of healthy food"
     return (
-        <section>
-            <div className="card bg-dark text-white">
-                <img 
-                    className="card-img" 
-                    src={require(`../assets/${image}`)} 
-                    alt="Card"
-                ></img>
-                <div className="card-img-overlay" onClick={() => setMoreInfoView(!moreInfoView)}>
-                    <h5 className="card-title">{title}</h5>
-                    <p className="card-text">{description}</p>
-                </div>
+        <article className="project">
+                {/* <img src={require(__dirname + "/assets/images/Tech-Together.jpg")}></img> */}
+                <section 
+                    className="imageCard" 
+                    alt={imgAlt} 
+                    onClick={() => setMoreInfoView(!moreInfoView)}
+                    style={{"backgroundImage": `url(${require(__dirname + "/assets/images/Tech-Together.jpg")})`}}
+                >
+                    <h2 className="title">{title}</h2>
+                    <p className="text">{description}</p>
+                </section>
                 {moreInfoView ? 
-                    <div className="card-body">
-                        <p className="card-text">Technologies Used: {techUsed}</p>
-                        <p className="card-text">Project Role: {role}</p>
+                    <div className="moreInfo">
+                        <p className="moreInfoText">Technologies Used: {techUsed}</p>
+                        <p className="moreInfoText">Project Role: {role}</p>
                     </div>:
                     null
                 }
-            </div>
-            <p className="text-center">Deployed Application: <a href={deployedLink}>{title}</a></p>
-            <p className="text-center">GitHub Repository: <a href={gitHubLink}>{title}</a></p>
-        </section>
-        
+                <p className="links">Deployed Application: <a href={deployedLink}>{title}</a></p>
+                <p className="links">GitHub Repository: <a href={gitHubLink}>{title}</a></p>
+        </article>
     )
 }
 
 export default Project;
-
-// {/* <p className="text-center">Deployed Application: <a href={deployedLink}>{title}</a></p>
-//         <p className="text-center">GitHub Repository: <a href={gitHubLink}>{title}</a></p>
-//         </Fragment> */}

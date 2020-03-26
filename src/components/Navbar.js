@@ -1,27 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./assets/css/Navbar.css";
 
 function Navbar() {
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-          <Link to="/" className="navbar-brand">Andrew Knapp</Link>
-          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-              <Link to="/" className="nav-link">About</Link>
+        <nav className="navbar">
+          <Link to="/" className="brand link">Andrew Knapp</Link>
+          {/* <div className="" id="navbarNav"> */}
+            <ul className="navbarList">
+              <li className="nav-li">
+              <Link to="/" className="link">About</Link>
               </li>
-              <li className="nav-item">
-                <Link to="/portfolio" className="nav-link">Portfolio</Link>
+              <li className="nav-li">
+                <Link to="/portfolio" className="link">Portfolio</Link>
               </li>
-              <li className="nav-item">
-                <Link to="/contact" className="nav-link">Contact</Link>
+              <li className="nav-li">
+                <Link to="/contact" className="link">Contact</Link>
               </li>
             </ul>
-          </div>
+          {/* </div> */}
         </nav>
     )
 }

@@ -5,8 +5,8 @@ function Portfolio() {
     return(
         <Fragment>
             <h1>Portfolio</h1>
-            <article className="container">
-                <Project/>
+            <article>
+                
                 <Project/>
                 <Project/>
             </article>

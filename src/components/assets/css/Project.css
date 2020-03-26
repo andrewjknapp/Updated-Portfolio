@@ -1,0 +1,29 @@
+.imageCard {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 30vh;
+    min-height: 200px;
+    padding: 5px;;
+    cursor: pointer;
+}
+
+.project {
+    background-color: rgb(187, 187, 187);
+    width: 25vw;
+    min-width: 350px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 10px 10px 5px grey;
+    float: left;
+    margin: 10px;
+}
+
+.project:hover{
+    transform: scale(1.01);
+    box-shadow: 10px 10px 5px rgb(110, 110, 110);
+}
+
+a {
+    color: white
+}
