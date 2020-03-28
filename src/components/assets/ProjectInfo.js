@@ -4,9 +4,9 @@ const Projects = [
         description: "A modern dining application",
         techUsed: "Javascript, CSS, HTML, Sequelize, Zomato API, Google Maps API",
         role: "Lead Developer",
-        deployedLink: "#",
-        gitHubLink: "#",
-        image: "Tech-Together.jpg",
+        deployedLink: "https://andrewjknapp.github.io/yip/",
+        gitHubLink: "https://github.com/andrewjknapp/yip",
+        image: "Yip.png",
         imgAlt: "Bowl of healthy food"
     },
     {
@@ -14,9 +14,9 @@ const Projects = [
         description: "Art is not Subjective",
         techUsed: "Javascript, CSS, HTML, Sequelize, Passport.js, OMDB API",
         role: "Lead Developer",
-        deployedLink: "#",
-        gitHubLink: "#",
-        image: "Tech-Together.jpg",
+        deployedLink: "https://gentle-bayou-98216.herokuapp.com/",
+        gitHubLink: "https://github.com/andrewjknapp/The_Boxing_Office",
+        image: "Boxing-Office.png",
         imgAlt: "Fighting movies"
     }
 ];

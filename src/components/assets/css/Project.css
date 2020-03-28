@@ -1,8 +1,7 @@
 .imageCard {
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
     height: 30vh;
     min-height: 200px;
     padding: 5px;;
@@ -10,7 +9,9 @@
 }
 
 .project {
-    background-color: rgb(187, 187, 187);
+    padding: 5px;
+    color: white;
+    background-color: rgb(117, 117, 117);
     width: 25vw;
     min-width: 350px;
     border-bottom-right-radius: 5px;
@@ -24,6 +25,10 @@
     box-shadow: 10px 10px 5px rgb(110, 110, 110);
 }
 
-a {
-    color: white
+.linkText {
+    color: black
+}
+
+.moreInfo hr {
+    margin: 0 10px;
 }
