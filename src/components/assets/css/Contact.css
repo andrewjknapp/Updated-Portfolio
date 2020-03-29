@@ -29,3 +29,15 @@
 .contactCard a {
     color: black;
 }
+
+.picture {
+    background-image: url("../images/headshot.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    border-radius: 50%;
+}

@@ -5,6 +5,7 @@ function Contact() {
     return(
         <article className="contact">
             <section className="contactCard">
+                <div className="picture"></div>
                 <h1>I would love to hear from you about any opportunities</h1> 
                 <p>Email: <a href="mailto:ajknapp2015@gmail.com?Subject=We%20would%20Love%20to%20hire%20you!&Body=When%20can%20you%20start?">ajknapp2015@gmail.com</a></p>
                 <p>GitHub: <a href="https://github.com/andrewjknapp" target="_blank" rel="noopener noreferrer">andrewjknapp</a></p>
