@@ -1,0 +1,96 @@
+.aboutIntro {
+    height: 100vh;
+    background-image: url("../images/Poppy-Field.jpg");
+    background-position: top;
+    background-size: cover;
+    padding-top: 10%;
+    
+}
+
+.aboutIntro h1 {
+    text-align: center;
+    /* position: relative;
+    top: 30vh; */
+    font-size: 3em;
+}
+
+.aboutTruth {
+    height: 94vh;
+    background-image: url("../images/kangaroo.jpg");
+    background-position: left;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutTruth h1 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 10vh;
+}
+
+.aboutLearner {
+    height: 94vh;
+    background-image: url("../images/grass.jpg");
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+}
+
+.aboutLearner h1 {
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.aboutScience {
+    height: 94vh;
+    background-image: url("../images//lightBulb.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #010D0D;
+    position: relative;
+}
+
+.aboutScience h1 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    margin-left: -150px;
+    left: 50%;
+    font-size: 1em;
+}
+
+.science1 {
+    top: 10vh;
+}
+
+.science2 {
+    bottom: 5vh;
+}
+
+.aboutQualifications {
+    height: 94vh;
+    text-align: center;
+    background-image: url("../images/brick.jpg");
+    background-position: left;
+    background-size: cover;
+    padding-top: 5vh;
+    font-size: 1.5em;
+}
+
+.aboutQualifications ul {
+    list-style: none;
+}
+
+.aboutQualifications li {
+    margin: 3vh;
+
+}
+
+.aboutTech {
+    height: 95vh;
+}
