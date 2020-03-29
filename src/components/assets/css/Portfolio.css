@@ -1,0 +1,12 @@
+.portfolioContainer {
+    height: 100vh;
+    background-image: url("../images/sand.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+    padding-top: 5vh;
+    padding-left: 5vw;
+}

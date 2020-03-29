@@ -1,16 +1,16 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Project from "../Project";
 import ProjectInfo from "../assets/ProjectInfo";
+import "../assets/css/Portfolio.css";
 
 function Portfolio() {
     return(
-        <Fragment>
-            <h1>Portfolio</h1>
-            <article>
+        <article className="portfolioContainer">
+            <section>
                 {ProjectInfo.map(projectInfo => <Project data={projectInfo}/>)}
-            </article>
+            </section>
 
-        </Fragment>
+        </article>
     )
 }
 
