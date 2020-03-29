@@ -93,4 +93,27 @@
 
 .aboutTech {
     height: 95vh;
+    background-image: url("../images/tech.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutTech h1 {
+    position: relative;
+    width: 100%;
+    top: 5vh;
+    font-size: 2em;
+    text-align: center;
+}
+
+.aboutTech ul {
+    position: relative;
+    top: 7vh;
+    width: 100%;
+}
+
+.aboutTech li {
+    width: fit-content;
+    margin: 5px auto;
+    list-style: none;
 }
