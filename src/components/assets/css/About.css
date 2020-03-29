@@ -20,6 +20,7 @@
     background-position: left;
     background-size: cover;
     position: relative;
+    scroll-snap-align: start;
 }
 
 .aboutTruth h1 {

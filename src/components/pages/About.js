@@ -3,7 +3,7 @@ import "../assets/css/About.css";
 
 function About() {
     return(
-        <article>
+        <article className="aboutContainer">
             <section className="aboutIntro">
                 <h1>Who is Andrew Knapp?</h1>
             </section>

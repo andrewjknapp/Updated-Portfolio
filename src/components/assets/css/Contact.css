@@ -1,3 +1,31 @@
 .icon {
     background-color: aquamarine;
 }
+
+.contact {
+    height: 100vh;
+    background-image: url("../images/contact.jpg");
+    background-position: right;
+    background-size: cover;
+}
+
+.contactCard {
+    position: relative;
+    top: 10vh;
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+
+.contactCard > * {
+    margin: 10px 0;
+}
+
+.contactCard img {
+    margin: 10px 5px;
+}
+
+.contactCard a {
+    color: black;
+}
