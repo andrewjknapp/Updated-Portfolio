@@ -7,7 +7,7 @@ function Portfolio() {
     return(
         <article className="portfolioContainer">
             <section>
-                {ProjectInfo.map(projectInfo => <Project data={projectInfo}/>)}
+                {ProjectInfo.map(projectInfo => <Project key={projectInfo.id} data={projectInfo}/>)}
             </section>
 
         </article>

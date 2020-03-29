@@ -32,13 +32,13 @@ function About() {
                     <li>Javascript</li>
                     <li>React</li>
                     <li>MySQL</li>
+                    <li>Sequelize</li>
                     <li>MongoDB</li>
                     <li>HTML</li>
                     <li>jQuery</li>
                     <li>CSS</li>
                     <li>Bootstrap</li>
                     <li>Materialize</li>
-                    <li>Sequelize</li>
                     <li>Handlebars</li>
                     <li>Heroku</li>
                     <li>Git</li>
