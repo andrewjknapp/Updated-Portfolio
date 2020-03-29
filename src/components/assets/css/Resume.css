@@ -1,0 +1,9 @@
+.Resume {
+    margin: 10px auto;
+    width: 90vw;
+    height: 90vh;
+    background-image: url("../images/resume.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

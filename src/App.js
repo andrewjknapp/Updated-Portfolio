@@ -5,6 +5,7 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import Portfolio from './components/pages/Portfolio';
 import Footer from './components/Footer';
+import Resume from './components/pages/Resume';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" component={About}/>
         <Route exact path="/contact" component={Contact}/>
         <Route exact path="/portfolio" component={Portfolio}/>
+        <Route exact path="/resume" component={Resume}/>
       </article>
       <Footer/>
     </Router>
