@@ -13,11 +13,12 @@
     top: 0;
     width: 100%;
     z-index: 2;
+    font-size: 2vh;
 }
 
 .link {
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 1em;
 }
 
@@ -31,5 +32,5 @@
 
 .brand, .navbarNav, .navbarList, .nav-li {
     display: inline;
-    margin: 10px;
+    margin: 8px;
 }

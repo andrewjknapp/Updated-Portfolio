@@ -1,7 +1,8 @@
 .Resume {
-    margin: 10px auto;
-    width: 90vw;
-    height: 90vh;
+    margin: 5vh auto 0;
+    max-width: 90vw;
+    height: 94vh;
+    padding: 0;
     background-image: url("../images/resume.jpg");
     background-size: contain;
     background-repeat: no-repeat;

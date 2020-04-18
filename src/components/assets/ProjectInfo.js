@@ -1,5 +1,16 @@
 const Projects = [
     {
+        id: 0,
+        title: "Symptom Tracker",
+        description: "Empower your physician visits with data",
+        techUsed: "React, Express, Mongoose, ChartJS, Bootstrap, HTML, CSS, and Javascript",
+        role: "Lead Backend Dev & Project Manager",
+        deployedLink: "https://nameless-journey-02981.herokuapp.com/",
+        gitHubLink: "https://github.com/andrewjknapp/Symptom-Tracker",
+        image: "symptomTracker.png",
+        imgAlt: "Homepage of Symptom Tracker Website"
+    },
+    {
         id: 1,
         title: "Yip",
         description: "A modern dining application",
