@@ -1,5 +1,7 @@
 .portfolioContainer {
-    height: 100vh;
+    height: 110vh;
+    width: 100vw;
+    margin-bottom: 20vh;
     background-image: url("../images/sand.jpg");
     background-position: center;
     background-size: cover;
@@ -7,6 +9,15 @@
     position: fixed;
     top: 0;
     overflow: scroll;
-    padding-top: 5vh;
-    padding-left: 5vw;
+    padding: 5vh;
+    padding-bottom: 0;
+    overflow: scroll;
+}
+
+.projectContainer {
+    margin: 0 auto;
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

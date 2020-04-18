@@ -1,3 +1,15 @@
+.aboutContainer {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 5vh;
+    z-index: 4;
+    overflow: scroll;
+    height: 100vh;
+}
+
+.about {
+    scroll-snap-align: start;
+}
+
 .aboutIntro {
     height: 100vh;
     background-image: url("../images/Poppy-Field.jpg");
@@ -9,8 +21,6 @@
 
 .aboutIntro h1 {
     text-align: center;
-    /* position: relative;
-    top: 30vh; */
     font-size: 3em;
 }
 
