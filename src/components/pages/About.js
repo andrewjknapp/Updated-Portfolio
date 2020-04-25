@@ -8,10 +8,7 @@ function About() {
                 <h1>Who is Andrew Knapp?</h1>
             </section>
             <section className="about aboutTruth">
-                <h1>I am an unapologetic seeker of truth.</h1>
-            </section>
-            <section className="about aboutLearner">
-                <h1>I am first and foremost a learner. <br/>I look toward challenges to apply my experiences and overcome.</h1>
+                <h1>I am an unapologetic seeker of truth. <br/> And a lifelong learner</h1>
             </section>
             <section className="about aboutScience"> 
                 <h1 className="science1"> I have spent the last four years studying the scientific method and learning truths about the natural world.</h1>
@@ -27,7 +24,7 @@ function About() {
                 </ul>
             </section>
             <section className="about aboutTech">
-                <h1>Technologies I Enjoy...</h1>
+                <h1>Technologies I Employ...</h1>
                 <ul>
                     <li>Javascript</li>
                     <li>React</li>
