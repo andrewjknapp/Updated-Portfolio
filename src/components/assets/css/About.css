@@ -41,20 +41,6 @@
     top: 10vh;
 }
 
-.aboutLearner {
-    height: 94vh;
-    background-image: url("../images/grass.jpg");
-    background-position: bottom;
-    background-size: cover;
-    position: relative;
-    padding: 20px;
-}
-
-.aboutLearner h1 {
-    font-size: 2em;
-    line-height: 2em;
-}
-
 .aboutScience {
     height: 94vh;
     background-image: url("../images//lightBulb.jpg");
