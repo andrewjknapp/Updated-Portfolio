@@ -1,0 +1,13 @@
+.freelance {
+    margin: 3vh;
+    padding: 3vh;
+    min-width: 65vw;
+    height: 70vh;
+    background: rgba(255,255,255,0.9);
+}
+
+.fTitle {
+    text-align: center;
+    font-size: 1.5em;
+    
+}
