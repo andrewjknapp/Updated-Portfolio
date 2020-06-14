@@ -2,7 +2,7 @@ const Projects = [
     {
         id: 0,
         title: "Symptom Tracker",
-        description: "Empower physician visits with personal data",
+        description: "Empower patients with personal data",
         techUsed: "React, Express, Mongoose, ChartJS, Bootstrap, HTML, CSS, and Javascript",
         role: "Lead Backend Dev & Project Manager",
         deployedLink: "https://nameless-journey-02981.herokuapp.com/",
