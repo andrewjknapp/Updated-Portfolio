@@ -14,14 +14,25 @@
     overflow: scroll;
 }
 
-.projectTitle {
-    font-size: 2em;
+.projectTitle,
+.portfolioTitle {
+    font-size: 3em;
     text-align: center;
-    background-color: rgba(255,255,255,0.9);
     padding: 10px;
     width: fit-content;
     margin: 0 auto;
+    color: white;
+    text-shadow: 0 0 5px #000, 0 0 10px #000
 }
+/*
+.portfolioTitle {
+    background: rgba(196, 183, 174, 0.9);
+}
+
+.projectTitle {
+    background: rgba(255, 255, 255, 0.9);
+}
+*/
 
 .projectContainer {
     margin: 0 auto;

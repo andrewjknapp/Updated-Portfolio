@@ -7,7 +7,7 @@ import { Freelance } from "../Freelance";
 function Portfolio() {
     return(
         <article className="portfolioContainer">
-            <h2 className="projectTitle">Freelance Work</h2>
+            <h2 className="portfolioTitle">Freelance Work</h2>
             <section className="freelanceContainer">
                 <Freelance/>
             </section>

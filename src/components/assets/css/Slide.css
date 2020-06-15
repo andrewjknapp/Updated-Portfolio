@@ -1,8 +1,13 @@
 .slide {
     margin: 10px auto;
-    height: 50vh;
-    width: 50vw;
-    background-position: top;
+    height: 0;
+    width: 90%;
+    padding-bottom: calc(90%*9/16);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.4);
+
 }
