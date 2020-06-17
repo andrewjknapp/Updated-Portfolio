@@ -1,0 +1,78 @@
+:root {
+    
+    --iconSize: 70px;
+    --pedalRadius: 14px;
+}
+
+.icon, .icon > * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#flowerContainer {
+    height: var(--iconSize);
+    width: var(--iconSize);
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#topPedals,
+#bottomPedals {
+    height: calc(var(--iconSize) / 2);
+}
+
+.pedal {
+    background: #F1800D;
+    height: calc((var(--iconSize) / 2) - 2px);
+    width: calc((var(--iconSize) / 2) - 2px);
+    margin: 1px;
+}
+
+#pedal1 {
+    border-radius: 0px var(--pedalRadius) 0px var(--pedalRadius);
+}
+#pedal2 {
+    border-radius: var(--pedalRadius) 0px var(--pedalRadius) 0px;
+}
+#pedal3 {
+    border-radius: var(--pedalRadius) 0px var(--pedalRadius) 0px;
+}
+#pedal4 {
+    border-radius: 0px var(--pedalRadius) 0px var(--pedalRadius);
+}
+
+#flowerCenter {
+    position: absolute;
+    background: black;
+    border-radius: 50%;
+    width: calc(var(--iconSize) / 4);
+    height: calc(var(--iconSize) / 4);
+}
+
+#poppy {
+    position: relative;
+    top: 25vh;
+    animation: spin;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    50% {transform: rotate(1800deg); margin-top: 80px;}
+    70% {transform: rotate(1620deg); margin-top: 0px;}
+    80% {transform: rotate(1620deg); margin-top: 20px;}
+    100% {transform: rotate(1620deg); margin-top: 0px;}
+}

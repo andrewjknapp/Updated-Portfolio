@@ -4,10 +4,12 @@
     z-index: 4;
     overflow: scroll;
     height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .about {
     scroll-snap-align: start;
+    position: relative;
 }
 
 .aboutIntro {
